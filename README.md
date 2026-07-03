@@ -21,13 +21,9 @@ Este projeto abrange testes de Interface de Utilizador (UI) e Testes de API, dem
 **Isolamento:** Testes de API validam as regras de negócio do back-end, enquanto os testes E2E validam a jornada do utilizador.
 
 **Estrutura do Projeto**
-
-cypress/
-  ├── e2e/
-  │   ├── api/       # Testes diretos ao Back-end (ex: cy.request)
-  │   └── ui/        # Testes de Interface E2E 
-  ├── support/
-  │   ├── factories/ # Massa de dados dinâmica (Faker.js)
-  │   └── pages/     # Page Objects (Mapeamento de elementos e ações da UI)
+cypress/e2e/ui/ # Testes de Interface E2E 
+cypress/e2e/api/ # Testes diretos ao Back-end (ex: cy.request)
+cypress/support/factories/ # Massa de dados dinâmica (Faker.js)
+cypress/support/pages/ # Page Objects (Mapeamento de elementos e ações da UI)
 
 
